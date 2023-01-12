@@ -6,9 +6,13 @@
     background-size: cover;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
 .left-content, .right-content {
     flex: 1 1 0;
     height: 100%;
-    text-align: center;
-    color: #fff;
 }
