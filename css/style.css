@@ -26,13 +26,20 @@ body {
     font-weight: 400;
     font-size: 14px;
     padding: 2%;
+    box-sizing: border-box;
 }
 
 header img {
-    width: 17rem;
+    width: 50%;
     margin-bottom: 3rem;
 }
 
+.box-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
 h2 {
     color: green;
     font-weight: 700;
@@ -40,8 +47,19 @@ h2 {
     line-height: 28px;
 }
 
+p {
+    margin-top: .8rem;
+}
+
 .subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+}
+
+.form-container label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #A8A8A8
 }
