@@ -1,4 +1,19 @@
 @import url(/css/reset.css);
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+;
+}
+
+.left-content, .right-content {
+    flex: 1 1 0;
+    height: 100%;
+    color: #fff;
+}
+
 .right-content {
     background: url(/assets/read_news.jpg);
     width: 100%;
@@ -6,13 +21,18 @@
     background-size: cover;
 }
 
-body {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+.left-content {
+    background-color: black;
+    font-weight: 400;
+    font-size: 14px;
 }
 
-.left-content, .right-content {
-    flex: 1 1 0;
-    height: 100%;
+h2 {
+    color: green;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
 }
