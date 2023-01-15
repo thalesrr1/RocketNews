@@ -22,7 +22,7 @@ body {
 }
 
 .left-content {
-    background-color: black;
+    background-color: #121214;
     font-weight: 400;
     font-size: 14px;
     padding: 2%;
@@ -30,8 +30,8 @@ body {
 }
 
 header img {
-    width: 50%;
-    margin-bottom: 3rem;
+    width: 55%;
+    margin-bottom: 4rem;
 }
 
 .box-content {
@@ -62,4 +62,23 @@ p {
     font-size: 14px;
     line-height: 138.73%;
     color: #A8A8A8
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.email label {
+    margin-bottom: .8rem;
+}
+
+#about-txt {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #8257E5;
 }
