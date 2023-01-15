@@ -47,7 +47,7 @@ h2 {
     line-height: 28px;
 }
 
-p {
+.box-content p {
     margin-top: .8rem;
 }
 
@@ -75,10 +75,14 @@ p {
 }
 
 #about-txt {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 138.73%;
     color: #8257E5;
+}
+
+#about-txt a {
+    text-decoration: none;
 }
