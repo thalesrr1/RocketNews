@@ -19,6 +19,7 @@ body {
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position: right;
 }
 
 .left-content {
@@ -72,6 +73,13 @@ h2 {
 
 .email label {
     margin-bottom: .8rem;
+}
+
+.email input {
+    z-index: 1;
+    width: 120%;
+    height: 48px;
+    border-left: 10px #04D361 solid;
 }
 
 #about-txt {
