@@ -1,5 +1,13 @@
 @import url(/css/reset.css);
 
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -23,9 +31,9 @@ body {
 }
 
 .left-content {
-    background-color: #121214;
+    background-color: var(--body-bg-color);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     padding: 2%;
     box-sizing: border-box;
 }
@@ -42,9 +50,9 @@ header img {
     margin-bottom: 2rem;
 }
 h2 {
-    color: green;
+    color: var(--title-color);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.6rem;
     line-height: 28px;
 }
 
@@ -54,15 +62,15 @@ h2 {
 
 .subtitle {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 16px;
 }
 
 .form-container label{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 138.73%;
-    color: #A8A8A8
+    color: #A8A8A8;
 }
 
 .input-container {
@@ -79,18 +87,26 @@ h2 {
     z-index: 1;
     width: 120%;
     height: 48px;
-    border-left: 10px #04D361 solid;
+    border-left: 10px var(--title-color) solid;
 }
 
 #about-txt {
     display: flex;
     align-items: center;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1.3rem;
     line-height: 138.73%;
-    color: #8257E5;
+    color: var(--bg-button-color);
 }
 
 #about-txt a {
     text-decoration: none;
+}
+
+#about-txt a:visited {
+    color: var(--bg-button-color);
+}
+
+#about-txt a:hover {
+    color: #a285e6;
 }
